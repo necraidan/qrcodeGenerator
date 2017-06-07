@@ -1,0 +1,19 @@
+{
+  "name": "qrcode-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necraidan/qrcodeGenerator.git"
+  },
+  "author": "Benjamin Auzanneau (necraidan)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necraidan/qrcodeGenerator/issues"
+  },
+  "homepage": "https://github.com/necraidan/qrcodeGenerator#readme"
+}

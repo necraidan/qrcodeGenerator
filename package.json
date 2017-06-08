@@ -1,10 +1,11 @@
 {
   "name": "qrcode-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "another qrcode generator",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/necraidan/qrcodeGenerator/issues"
   },
-  "homepage": "https://github.com/necraidan/qrcodeGenerator#readme"
+  "homepage": "https://github.com/necraidan/qrcodeGenerator#readme",
+  "keywords": [
+    "qrcode"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "qrcode": "^0.8.2"
+  }
 }
